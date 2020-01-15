@@ -8,8 +8,7 @@ export default class Navigation extends React.Component {
         this.state = {
         }
     }
-//add a reload function, reload the json_rpc and start over
-    //probably need ipc here for electron process interaction
+    
     render() {
         return (
             <div className="container center">
